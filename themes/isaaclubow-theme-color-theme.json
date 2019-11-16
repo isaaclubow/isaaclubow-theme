@@ -16,7 +16,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#89bd5e",
+				"foreground": "#8fc266",
 				"fontStyle": "bold"
 			}
 		},
@@ -34,7 +34,7 @@
 				"punctuation"
 			],
 			"settings": {
-				"foreground": "#dfdfdf",
+				"foreground": "#d0d0d0",
 				"fontStyle": "",
 			}
 		},
@@ -50,7 +50,8 @@
 			"name": "Comment Grey",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"comment punctuation",
+				"comment support.class"
 			],
 			"settings": {
 				"foreground": "#666666"
@@ -69,7 +70,8 @@
 		{
 			"name": "Blue",
 			"scope": [
-				"variable"
+				"variable",
+				"variable punctuation"
 			],
 			"settings": {
 				"foreground": "#81a8d4"
@@ -91,7 +93,7 @@
 				"entity.other.attribute-name.class.css"
 			],
 			"settings": {
-				"foreground": "#81b159"
+				"foreground": "#84ad62"
 			}
 		},
 		{
@@ -109,10 +111,12 @@
 			"scope": [
 				"support.function.magic.php",
 				"meta.object-literal.key",
-				"support.type.property-name.css"
+				"support.type.property-name",
+				"support.type.property-name punctuation",
+				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#81b6b8",
+				"foreground": "#90b9bb",
 				"fontStyle": ""
 			}
 		},
