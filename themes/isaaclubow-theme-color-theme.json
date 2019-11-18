@@ -22,15 +22,20 @@
 		},
 		{
 			"scope": [
-				"constant.numeric"
+            "constant.numeric",
+            "keyword.other.important.css"
 			],
 			"settings": {
-				"foreground": "#fffb00"
+            "foreground": "#fffb00",
+            "fontStyle": ""
 			}
 		},
 		{
 			"scope": [
 				"keyword.other.unit.px.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.percentage.css",
+				"support.function.url.css",
 				"punctuation",
 				"meta.embedded.line.php punctuation",
             "meta.embedded.block.php punctuation",
@@ -147,7 +152,8 @@
 		{
 			"name": "Purple",
 			"scope": [
-				"entity.other.attribute-name.pseudo-class.css"
+            "entity.other.attribute-name.pseudo-class.css",
+            "entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#a478bd"
