@@ -2,7 +2,7 @@
 	"name": "isaaclubow-theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#111111",
+		"editor.background": "#000000",
 		"editor.foreground": "#dfdfdf",
 		"activityBarBadge.background": "#b42c03",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -31,7 +31,10 @@
 		{
 			"scope": [
 				"keyword.other.unit.px.css",
-				"punctuation"
+				"punctuation",
+				"meta.embedded.line.php punctuation",
+            "meta.embedded.block.php punctuation",
+            "entity.name.function"
 			],
 			"settings": {
 				"foreground": "#d0d0d0",
@@ -40,10 +43,11 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#ebe39d"
+				"foreground": "#f0e2a2"
 			}
 		},
 		{
@@ -51,7 +55,8 @@
 			"scope": [
 				"comment",
 				"comment punctuation",
-				"comment support.class"
+				"comment support.class",
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#666666"
@@ -71,7 +76,8 @@
 			"name": "Blue",
 			"scope": [
 				"variable",
-				"variable punctuation"
+				"variable punctuation",
+				"punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#81a8d4"
@@ -101,7 +107,8 @@
 			"scope": [
 				"string",
 				"string punctuation",
-				"entity.other.attribute-name.id.css"
+				"entity.other.attribute-name.id.css",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#e6a631",
@@ -113,7 +120,14 @@
 				"meta.object-literal.key",
 				"support.type.property-name",
 				"support.type.property-name punctuation",
-				"variable.other.property"
+				"variable.other.property",
+				"entity.name.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"entity.other.attribute-name.html",
+				"punctuation.separator.key-value.html",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
 			],
 			"settings": {
 				"foreground": "#90b9bb",
