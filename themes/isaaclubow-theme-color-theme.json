@@ -42,8 +42,8 @@
             "entity.name.function"
 			],
 			"settings": {
-				"foreground": "#d0d0d0",
-				"fontStyle": "",
+				"foreground": "#D0D0D0",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -184,7 +184,9 @@
 		{
 			"name": "Pale Red Bold",
 			"scope": [
-				"constant.language"
+            "constant.language",
+            "variable.other.global.safer.php",
+            "variable.other.global.safer.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#ff4040",
