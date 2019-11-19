@@ -2,10 +2,23 @@
 	"name": "isaaclubow-theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#000000",
+		"editor.background": "#070707",
 		"editor.foreground": "#dfdfdf",
 		"activityBarBadge.background": "#b42c03",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#0f0f0f",
+		"sideBar.border": "#1a1a1a",
+		"activityBar.background": "#0f0f0f",
+		"statusBar.background": "#0f0f0f",
+		"statusBar.border": "#1a1a1a",
+		"activityBar.border": "#1a1a1a",
+		"tab.inactiveBackground": "#171717",
+		"tab.activeModifiedBorder": "#ff0000",
+		"titleBar.activeBackground": "#0f0f0f",
+		"titleBar.border": "#1a1a1a",
+		"panel.background": "#0f0f0f",
+		"panel.border": "#1a1a1a",
+		"panelInput.border": "#1a1a1a"
 	},
 	"tokenColors": [
 		{
@@ -198,6 +211,8 @@
 			"name": "Pale Red Bold",
 			"scope": [
             "constant.language",
+            "variable.other.global.php",
+				"variable.other.global.php punctuation.definition.variable.php",
             "variable.other.global.safer.php",
 				"variable.other.global.safer.php punctuation.definition.variable.php",
 				"variable.language.this.php",
