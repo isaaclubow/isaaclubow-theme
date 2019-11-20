@@ -26,7 +26,8 @@
 			"scope": [
 				"storage",
 				"keyword",
-				"support.function"
+				"support.function",
+				"keyword.operator.type.php"
 			],
 			"settings": {
 				"foreground": "#8fc266",
@@ -137,7 +138,8 @@
 			"name": "Reddish Orange Bold",
 			"scope": [
 				"constant.character.escape",
-				"string.quoted.double.php punctuation.definition.variable.php"
+				"string.quoted.double.php punctuation.definition.variable.php",
+				"support.constant.ext.php"
 			],
 			"settings": {
 				"foreground": "#da601a",
