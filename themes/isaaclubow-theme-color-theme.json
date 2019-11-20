@@ -46,9 +46,8 @@
 		},
 		{
 			"scope": [
-				"keyword.other.unit.px.css",
-				"keyword.other.unit.rem.css",
-				"keyword.other.unit.percentage.css",
+				"constant.numeric.css",
+				"keyword.other.unit",
 				"keyword.operator.class",
 				"support.function.url.css",
 				"punctuation",
