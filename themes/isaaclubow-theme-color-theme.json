@@ -49,11 +49,11 @@
 				"keyword.other.unit.px.css",
 				"keyword.other.unit.rem.css",
 				"keyword.other.unit.percentage.css",
+				"keyword.operator.class",
 				"support.function.url.css",
 				"punctuation",
 				"meta.embedded.line.php punctuation",
-            "meta.embedded.block.php punctuation",
-            "entity.name.function"
+            "meta.embedded.block.php punctuation"
 			],
 			"settings": {
 				"foreground": "#D0D0D0",
@@ -139,10 +139,12 @@
 			"scope": [
 				"constant.character.escape",
 				"string.quoted.double.php punctuation.definition.variable.php",
-				"support.constant.ext.php"
+				"support.constant.ext.php",
+				"support.constant.core.php",
+				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#da601a",
+				"foreground": "#e7681f",
 				"fontStyle": "bold"
 			}
 		},
@@ -164,6 +166,16 @@
 			],
 			"settings": {
 				"foreground": "#90b9bb",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "White",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#fff",
 				"fontStyle": ""
 			}
 		},
@@ -202,8 +214,7 @@
 			"name": "Pale Red",
 			"scope": [
 				"entity.name.type.class.php",
-				"support.class",
-				"constant.other.php"
+				"support.class"
 			],
 			"settings": {
 				"foreground": "#ff4040",
