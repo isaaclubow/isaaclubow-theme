@@ -18,7 +18,7 @@
 		"titleBar.border": "#1a1a1a",
 		"panel.background": "#0f0f0f",
 		"panel.border": "#1a1a1a",
-		"panelInput.border": "#1a1a1a"
+		"panelInput.border": "#1a1a1a",
 	},
 	"tokenColors": [
 		{
