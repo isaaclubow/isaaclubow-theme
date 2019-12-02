@@ -45,6 +45,7 @@
 			}
 		},
 		{
+			"name": "Plain",
 			"scope": [
 				"constant.numeric.css",
 				"keyword.other.unit",
@@ -56,6 +57,16 @@
 			],
 			"settings": {
 				"foreground": "#D0D0D0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Plain - Darker",
+			"scope": [
+				"keyword.operator.class"
+			],
+			"settings": {
+				"foreground": "#999999",
 				"fontStyle": ""
 			}
 		},
@@ -189,10 +200,20 @@
 			}
 		},
 		{
+			"name": "??",
+			"scope": [
+				"support.other.namespace"
+			],
+			"settings": {
+				"foreground": "#c96c37"
+			}
+		},
+		{
 			"name": "Purple",
 			"scope": [
-            "entity.other.attribute-name.pseudo-class.css",
-            "entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"support.other.namespace punctuation.separator.inheritance"
 			],
 			"settings": {
 				"foreground": "#a478bd"
