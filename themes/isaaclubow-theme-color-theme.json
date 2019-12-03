@@ -63,7 +63,7 @@
 		{
 			"name": "Plain - Darker",
 			"scope": [
-				"keyword.operator.class"
+				
 			],
 			"settings": {
 				"foreground": "#aaaaaa",
@@ -85,7 +85,8 @@
 				"comment",
 				"comment punctuation",
 				"comment support.class",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"comment.block.documentation.phpdoc.php punctuation"
 			],
 			"settings": {
 				"foreground": "#666666"
@@ -175,7 +176,7 @@
 				"variable.other.object.property.js"
 			],
 			"settings": {
-				"foreground": "#90b9bb",
+				"foreground": "#81b7b9",
 				"fontStyle": ""
 			}
 		},
