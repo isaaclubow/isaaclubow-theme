@@ -63,7 +63,7 @@
 		{
 			"name": "Plain - Darker",
 			"scope": [
-				
+
 			],
 			"settings": {
 				"foreground": "#aaaaaa",
@@ -176,7 +176,7 @@
 				"variable.other.object.property.js"
 			],
 			"settings": {
-				"foreground": "#81b7b9",
+				"foreground": "#9abfc0",
 				"fontStyle": ""
 			}
 		},
@@ -214,7 +214,8 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"support.other.namespace punctuation.separator.inheritance"
+				"support.other.namespace punctuation.separator.inheritance",
+				"meta.tag.metadata.doctype entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#a478bd"
