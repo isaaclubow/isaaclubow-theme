@@ -63,7 +63,7 @@
 		{
 			"name": "Plain - Darker",
 			"scope": [
-
+				"support.other.namespace punctuation.separator.inheritance"
 			],
 			"settings": {
 				"foreground": "#aaaaaa",
@@ -146,6 +146,15 @@
 			}
 		},
 		{
+			"name": "Reddish Orange",
+			"scope": [
+				"support.other.namespace"
+			],
+			"settings": {
+				"foreground": "#e7681f",
+			}
+		},
+		{
 			"name": "Reddish Orange Bold",
 			"scope": [
 				"constant.character.escape",
@@ -160,23 +169,33 @@
 			}
 		},
 		{
+			"name": "Pale Blue",
 			"scope": [
 				"support.function.magic.php",
 				"meta.object-literal.key",
 				"support.type.property-name",
 				"support.type.property-name punctuation",
 				"variable.other.property",
+				"variable.other.object.property.js"
+			],
+			"settings": {
+				"foreground": "#84cacc",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Paler Blue",
+			"scope": [
 				"entity.name.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"entity.other.attribute-name.html",
 				"punctuation.separator.key-value.html",
 				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html",
-				"variable.other.object.property.js"
+				"punctuation.definition.string.end.html"
 			],
 			"settings": {
-				"foreground": "#9abfc0",
+				"foreground": "#a8c4c5",
 				"fontStyle": ""
 			}
 		},
@@ -201,20 +220,10 @@
 			}
 		},
 		{
-			"name": "??",
-			"scope": [
-				"support.other.namespace"
-			],
-			"settings": {
-				"foreground": "#c96c37"
-			}
-		},
-		{
 			"name": "Purple",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"support.other.namespace punctuation.separator.inheritance",
 				"meta.tag.metadata.doctype entity.name.tag.html"
 			],
 			"settings": {
@@ -239,7 +248,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#ff4040",
+				"foreground": "#f05050",
 			}
 		},
 		{
@@ -254,7 +263,7 @@
 				"variable.language.this.php punctuation.definition.variable.php",
 			],
 			"settings": {
-				"foreground": "#ff4040",
+				"foreground": "#f05050",
 				"fontStyle": "bold"
 			}
 		}
