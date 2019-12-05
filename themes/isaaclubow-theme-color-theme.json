@@ -155,16 +155,25 @@
 			}
 		},
 		{
-			"name": "Reddish Orange Bold",
+			"name": "Escape Orange Bold",
 			"scope": [
 				"constant.character.escape",
 				"string.quoted.double.php punctuation.definition.variable.php",
+			],
+			"settings": {
+				"foreground": "#e46217",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Orange Bold",
+			"scope": [
 				"support.constant.ext.php",
 				"support.constant.core.php",
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#e7681f",
+				"foreground": "#eb592d",
 				"fontStyle": "bold"
 			}
 		},
@@ -248,7 +257,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#f05050",
+				"foreground": "#ff5252",
 			}
 		},
 		{
@@ -263,7 +272,7 @@
 				"variable.language.this.php punctuation.definition.variable.php",
 			],
 			"settings": {
-				"foreground": "#f05050",
+				"foreground": "#ec4646",
 				"fontStyle": "bold"
 			}
 		}
