@@ -254,6 +254,7 @@
 			"name": "Pale Red",
 			"scope": [
 				"entity.name.type.class.php",
+				"entity.other.inherited-class.php",
 				"support.class"
 			],
 			"settings": {
