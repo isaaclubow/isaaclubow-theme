@@ -170,10 +170,11 @@
 			"scope": [
 				"support.constant.ext.php",
 				"support.constant.core.php",
+				"support.constant.std.php",
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#eb592d",
+				"foreground": "#eb492d",
 				"fontStyle": "bold"
 			}
 		},
