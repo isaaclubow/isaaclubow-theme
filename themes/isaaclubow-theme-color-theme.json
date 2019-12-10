@@ -158,6 +158,8 @@
 			"name": "Escape Orange Bold",
 			"scope": [
 				"constant.character.escape",
+				"constant.character.entity",
+				"punctuation.definition.entity.html",
 				"string.quoted.double.php punctuation.definition.variable.php",
 			],
 			"settings": {
