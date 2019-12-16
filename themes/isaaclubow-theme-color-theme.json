@@ -176,7 +176,7 @@
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#eb492d",
+				"foreground": "#cf5641",
 				"fontStyle": "bold"
 			}
 		},
@@ -256,9 +256,6 @@
 		{
 			"name": "Pale Red",
 			"scope": [
-				"entity.name.type.class.php",
-				"entity.other.inherited-class.php",
-				"support.class"
 			],
 			"settings": {
 				"foreground": "#ff5252",
@@ -267,6 +264,9 @@
 		{
 			"name": "Pale Red Bold",
 			"scope": [
+				"entity.name.type.class.php",
+				"entity.other.inherited-class.php",
+				"support.class",
             "constant.language",
             "variable.other.global.php",
 				"variable.other.global.php punctuation.definition.variable.php",
