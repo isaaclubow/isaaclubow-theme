@@ -27,21 +27,22 @@
 				"storage",
 				"keyword",
 				"support.function",
-				"keyword.operator.type.php"
+				"keyword.operator.type.php",
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#8fc266",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
 			"scope": [
             "constant.numeric",
-            "keyword.other.important.css"
+            "keyword.other.important.css",
 			],
 			"settings": {
             "foreground": "#fffb00",
-            "fontStyle": ""
+            "fontStyle": "",
 			}
 		},
 		{
@@ -53,30 +54,30 @@
 				"support.function.url.css",
 				"punctuation",
 				"meta.embedded.line.php punctuation",
-            "meta.embedded.block.php punctuation"
+            "meta.embedded.block.php punctuation",
 			],
 			"settings": {
 				"foreground": "#D0D0D0",
-				"fontStyle": ""
+				"fontStyle": "",
 			}
 		},
 		{
 			"name": "Plain - Darker",
 			"scope": [
-				"support.other.namespace punctuation.separator.inheritance"
+				"support.other.namespace punctuation.separator.inheritance",
 			],
 			"settings": {
 				"foreground": "#aaaaaa",
-				"fontStyle": ""
+				"fontStyle": "",
 			}
 		},
 		{
 			"scope": [
 				"entity.name.tag.css",
-				"string.quoted.double.html"
+				"string.quoted.double.html",
 			],
 			"settings": {
-				"foreground": "#f0e2a2"
+				"foreground": "#f0e2a2",
 			}
 		},
 		{
@@ -86,20 +87,20 @@
 				"comment punctuation",
 				"comment support.class",
 				"punctuation.definition.comment",
-				"comment.block.documentation.phpdoc.php punctuation"
+				"comment.block.documentation.phpdoc.php punctuation",
 			],
 			"settings": {
-				"foreground": "#666666"
+				"foreground": "#666666",
 			}
 		},
 		{
 			"name": "Bold Grey",
 			"scope": [
-				"comment keyword"
+				"comment keyword",
 			],
 			"settings": {
 				"foreground": "#888888",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -111,26 +112,26 @@
 				"string.quoted.double.php variable punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#81a8d4"
+				"foreground": "#81a8d4",
 			}
 		},
 		{
 			"name": "Bold Red",
 			"scope": [
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
+				"punctuation.section.embedded.end.php",
 			],
 			"settings": {
 				"foreground": "#ff0000",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name.class.css"
+				"entity.other.attribute-name.class.css",
 			],
 			"settings": {
-				"foreground": "#84ad62"
+				"foreground": "#84ad62",
 			}
 		},
 		{
@@ -139,7 +140,7 @@
 				"string",
 				"string punctuation",
 				"entity.other.attribute-name.id.css",
-				"punctuation.definition.string"
+				"punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#e6a631",
@@ -148,7 +149,7 @@
 		{
 			"name": "Reddish Orange",
 			"scope": [
-				"support.other.namespace"
+				"support.other.namespace",
 			],
 			"settings": {
 				"foreground": "#e7681f",
@@ -164,20 +165,7 @@
 			],
 			"settings": {
 				"foreground": "#e46217",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Orange Bold",
-			"scope": [
-				"support.constant.ext.php",
-				"support.constant.core.php",
-				"support.constant.std.php",
-				"constant.other.php"
-			],
-			"settings": {
-				"foreground": "#cf5641",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -188,11 +176,11 @@
 				"support.type.property-name",
 				"support.type.property-name punctuation",
 				"variable.other.property",
-				"variable.other.object.property.js"
+				"variable.other.object.property.js",
 			],
 			"settings": {
-				"foreground": "#84cacc",
-				"fontStyle": ""
+				"foreground": "#9acfd1",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -204,7 +192,7 @@
 				"entity.other.attribute-name.html",
 				"punctuation.separator.key-value.html",
 				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
+				"punctuation.definition.string.end.html",
 			],
 			"settings": {
 				"foreground": "#a8c4c5",
@@ -214,7 +202,7 @@
 		{
 			"name": "White",
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
 			],
 			"settings": {
 				"foreground": "#fff",
@@ -224,11 +212,11 @@
 		{
 			"name": "White Bold",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
 			],
 			"settings": {
 				"foreground": "#fff",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -236,21 +224,21 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"meta.tag.metadata.doctype entity.name.tag.html"
+				"meta.tag.metadata.doctype entity.name.tag.html",
 			],
 			"settings": {
-				"foreground": "#a478bd"
+				"foreground": "#a478bd",
 			}
 		},
 		{
 			"name": "Bold Purple",
 			"scope": [
 				"storage.modifier",
-				"keyword.control.at-rule.media.css"
+				"keyword.control.at-rule.media.css",
 			],
 			"settings": {
 				"foreground": "#a478bd",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -274,6 +262,10 @@
 				"variable.other.global.safer.php punctuation.definition.variable.php",
 				"variable.language.this.php",
 				"variable.language.this.php punctuation.definition.variable.php",
+				"support.constant.ext.php",
+				"support.constant.core.php",
+				"support.constant.std.php",
+				"constant.other.php",
 			],
 			"settings": {
 				"foreground": "#ec4646",
