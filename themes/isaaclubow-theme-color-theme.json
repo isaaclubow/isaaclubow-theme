@@ -265,6 +265,7 @@
 				"support.constant.ext.php",
 				"support.constant.core.php",
 				"support.constant.std.php",
+				"support.constant",
 				"constant.other.php",
 			],
 			"settings": {
