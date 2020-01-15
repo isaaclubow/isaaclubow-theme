@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "isaaclubow-theme",
+                "label": "Isaac's Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/isaaclubow-theme-color-theme.json"
             }
