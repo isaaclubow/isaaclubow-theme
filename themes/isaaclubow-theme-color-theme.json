@@ -244,6 +244,7 @@
 		{
 			"name": "Pale Red",
 			"scope": [
+				"constant.other.class.php",
 			],
 			"settings": {
 				"foreground": "#ff5252",
