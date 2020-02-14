@@ -150,6 +150,7 @@
 			"name": "Reddish Orange",
 			"scope": [
 				"support.other.namespace",
+				"entity.name.type.namespace",
 			],
 			"settings": {
 				"foreground": "#e7681f",
