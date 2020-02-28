@@ -62,13 +62,13 @@
 			}
 		},
 		{
-			"name": "Plain - Darker",
+			"name": "Bold Grey",
 			"scope": [
 				"support.other.namespace punctuation.separator.inheritance",
 			],
 			"settings": {
 				"foreground": "#aaaaaa",
-				"fontStyle": "",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -154,6 +154,7 @@
 			],
 			"settings": {
 				"foreground": "#e7681f",
+				"fontStyle": "bold",
 			}
 		},
 		{
