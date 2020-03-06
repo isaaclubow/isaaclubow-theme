@@ -151,6 +151,7 @@
 			"scope": [
 				"support.other.namespace",
 				"entity.name.type.namespace",
+				"string.regexp.single-quoted.php punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#e7681f",
