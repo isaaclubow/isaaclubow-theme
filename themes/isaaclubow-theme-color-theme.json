@@ -39,6 +39,7 @@
 			"scope": [
             "constant.numeric",
             "keyword.other.important.css",
+            "keyword.other.important.scss",
 			],
 			"settings": {
             "foreground": "#fffb00",
@@ -180,6 +181,8 @@
 				"support.type.property-name punctuation",
 				"variable.other.property",
 				"variable.other.object.property.js",
+				"entity.other.attribute-name.attribute.css",
+				"entity.other.attribute-name.attribute.scss",
 			],
 			"settings": {
 				"foreground": "#9acfd1",
@@ -238,6 +241,9 @@
 			"scope": [
 				"storage.modifier",
 				"keyword.control.at-rule.media.css",
+				"keyword.control.at-rule.media.scss",
+				"keyword.control.at-rule.supports.css",
+				"keyword.control.at-rule.supports.scss",
 			],
 			"settings": {
 				"foreground": "#a478bd",
