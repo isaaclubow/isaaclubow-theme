@@ -98,6 +98,7 @@
 			"name": "Bold Grey",
 			"scope": [
 				"comment keyword",
+				"comment.block.documentation.phpdoc.php storage.modifier.php"
 			],
 			"settings": {
 				"foreground": "#888888",
