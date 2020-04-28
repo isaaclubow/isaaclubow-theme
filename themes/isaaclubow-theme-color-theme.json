@@ -270,6 +270,7 @@
 		{
 			"name": "Pale Red Bold",
 			"scope": [
+				"entity.name.type.trait.php",
 				"entity.name.type.class.php",
 				"entity.other.inherited-class.php",
 				"support.class",
