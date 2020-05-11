@@ -37,13 +37,13 @@
 		},
 		{
 			"scope": [
-            "constant.numeric",
-            "keyword.other.important.css",
-            "keyword.other.important.scss",
+				"constant.numeric",
+				"keyword.other.important.css",
+				"keyword.other.important.scss",
 			],
 			"settings": {
-            "foreground": "#fffb00",
-            "fontStyle": "",
+				"foreground": "#fffb00",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 				"support.function.url.css",
 				"punctuation",
 				"meta.embedded.line.php punctuation",
-            "meta.embedded.block.php punctuation",
+				"meta.embedded.block.php punctuation",
 			],
 			"settings": {
 				"foreground": "#D0D0D0",
@@ -261,7 +261,8 @@
 		{
 			"name": "Pale Red",
 			"scope": [
-
+				"variable.other.constant.js",
+				"variable.other.constant.property.js",
 			],
 			"settings": {
 				"foreground": "#ff5252",
@@ -274,10 +275,10 @@
 				"entity.name.type.class.php",
 				"entity.other.inherited-class.php",
 				"support.class",
-            "constant.language",
-            "variable.other.global.php",
+				"constant.language",
+				"variable.other.global.php",
 				"variable.other.global.php punctuation.definition.variable.php",
-            "variable.other.global.safer.php",
+				"variable.other.global.safer.php",
 				"variable.other.global.safer.php punctuation.definition.variable.php",
 				"variable.language.this.php",
 				"variable.language.this.php punctuation.definition.variable.php",
@@ -287,7 +288,6 @@
 				"support.constant",
 				"constant.other.php",
 				"constant.other.class.php",
-
 			],
 			"settings": {
 				"foreground": "#ec4646",
