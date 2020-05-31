@@ -27,6 +27,7 @@
 				"storage",
 				"keyword",
 				"support.function",
+				"support.class.builtin.js",
 				"keyword.operator.type.php",
 				"keyword.operator.new",
 			],
@@ -261,8 +262,7 @@
 		{
 			"name": "Pale Red",
 			"scope": [
-				"variable.other.constant.js",
-				"variable.other.constant.property.js",
+
 			],
 			"settings": {
 				"foreground": "#ff5252",
@@ -288,6 +288,9 @@
 				"support.constant",
 				"constant.other.php",
 				"constant.other.class.php",
+				"variable.language.this.js",
+				"variable.other.constant.js",
+				"variable.other.constant.property.js",
 			],
 			"settings": {
 				"foreground": "#ec4646",
