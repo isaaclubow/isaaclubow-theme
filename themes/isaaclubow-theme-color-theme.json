@@ -30,6 +30,7 @@
 				"support.class.builtin.js",
 				"keyword.operator.type.php",
 				"keyword.operator.new",
+				"keyword.operator.expression.delete.js"
 			],
 			"settings": {
 				"foreground": "#8fc266",
@@ -143,7 +144,7 @@
 				"string",
 				"string punctuation",
 				"entity.other.attribute-name.id.css",
-				"punctuation.definition.string",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#e6a631",
@@ -218,6 +219,7 @@
 			"name": "White",
 			"scope": [
 				"entity.name.function",
+				"support.function.misc.scss"
 			],
 			"settings": {
 				"foreground": "#fff",
@@ -261,9 +263,7 @@
 		},
 		{
 			"name": "Pale Red",
-			"scope": [
-
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#ff5252",
 			}

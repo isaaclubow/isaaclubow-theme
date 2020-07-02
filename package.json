@@ -1,21 +1,21 @@
 {
-    "name": "isaaclubow-theme",
-    "displayName": "Isaac's Theme",
-    "description": "Isaac's Syntax Color Theme.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Isaac's Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/isaaclubow-theme-color-theme.json"
-            }
-        ]
-    }
+	"name": "isaaclubow-theme",
+	"displayName": "Isaac's Theme",
+	"description": "Isaac's Syntax Color Theme.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Isaac's Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/isaaclubow-theme-color-theme.json"
+			}
+		]
+	}
 }
