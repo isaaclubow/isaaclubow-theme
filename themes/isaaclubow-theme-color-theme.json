@@ -180,6 +180,7 @@
 			"scope": [
 				"support.function.magic.php",
 				"meta.object-literal.key",
+				"meta.object-literal.key entity.name.function",
 				"support.type.property-name",
 				"support.type.property-name punctuation",
 				"variable.other.property",
