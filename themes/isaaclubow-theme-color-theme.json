@@ -160,10 +160,11 @@
 				"string.regexp.single-quoted.php",
 				"string.regexp.double-quoted.php",
 				"string.regexp.single-quoted.php punctuation.definition.string",
-				"string.regexp.double-quoted.php punctuation.definition.string"
+				"string.regexp.double-quoted.php punctuation.definition.string",
+				"variable.interpolation.scss punctuation"
 			],
 			"settings": {
-				"foreground": "#e7681f",
+				"foreground": "#e47317",
 				"fontStyle": "bold"
 			}
 		},
@@ -176,7 +177,7 @@
 				"string.quoted.double.php punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#e46217",
+				"foreground": "#e47317",
 				"fontStyle": "bold"
 			}
 		},
@@ -248,7 +249,6 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"meta.tag.metadata.doctype entity.name.tag.html"
-
 			],
 			"settings": {
 				"foreground": "#a478bd"
