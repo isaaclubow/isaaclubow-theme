@@ -305,6 +305,7 @@
 				"constant.other.php",
 				"constant.other.class.php",
 				"variable.language.this.js",
+				"entity.name.type.js",
 				"variable.other.constant.property.js"
 			],
 			"settings": {
