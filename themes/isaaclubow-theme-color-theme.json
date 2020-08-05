@@ -153,7 +153,7 @@
 			}
 		},
 		{
-			"name": "Reddish Orange",
+			"name": "Escape Orange Bold",
 			"scope": [
 				"support.other.namespace",
 				"entity.name.type.namespace",
@@ -161,16 +161,7 @@
 				"string.regexp.double-quoted.php",
 				"string.regexp.single-quoted.php punctuation.definition.string",
 				"string.regexp.double-quoted.php punctuation.definition.string",
-				"variable.interpolation.scss punctuation"
-			],
-			"settings": {
-				"foreground": "#e47317",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Escape Orange Bold",
-			"scope": [
+				"variable.interpolation.scss punctuation",
 				"constant.character.escape",
 				"constant.character.entity",
 				"punctuation.definition.entity.html",
@@ -179,6 +170,15 @@
 			"settings": {
 				"foreground": "#e47317",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Escape Orange",
+			"scope": [
+
+			],
+			"settings": {
+				"foreground": "#e47317",
 			}
 		},
 		{
@@ -248,7 +248,8 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"meta.tag.metadata.doctype entity.name.tag.html"
+				"meta.tag.metadata.doctype entity.name.tag.html",
+				"variable.other.object.js"
 			],
 			"settings": {
 				"foreground": "#a478bd"
