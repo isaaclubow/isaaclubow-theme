@@ -108,7 +108,7 @@
 			}
 		},
 		{
-			"name": "Blue",
+			"name": "Variable Blue",
 			"scope": [
 				"variable",
 				"variable punctuation",
@@ -165,7 +165,9 @@
 				"constant.character.escape",
 				"constant.character.entity",
 				"punctuation.definition.entity.html",
-				"string.quoted.double.php punctuation.definition.variable.php"
+				"string.quoted.double.php punctuation.definition.variable.php",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
 				"foreground": "#e47317",
@@ -248,8 +250,7 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"meta.tag.metadata.doctype entity.name.tag.html",
-				"variable.other.object.js"
+				"meta.tag.metadata.doctype entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#a478bd"
