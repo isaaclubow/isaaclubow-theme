@@ -238,7 +238,8 @@
 		{
 			"name": "White Bold",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"entity.name.tag.reference.scss"
 			],
 			"settings": {
 				"foreground": "#fff",
