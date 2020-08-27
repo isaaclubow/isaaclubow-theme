@@ -113,7 +113,7 @@
 				"variable",
 				"variable punctuation",
 				"variable.js",
-				"punctuation.definition.variable.php",
+				"variable.other punctuation.definition.variable.php",
 				"string.quoted.double.php variable punctuation.definition.variable.php"
 			],
 			"settings": {
@@ -161,6 +161,7 @@
 				"string.regexp.double-quoted.php",
 				"string.regexp.single-quoted.php punctuation.definition.string",
 				"string.regexp.double-quoted.php punctuation.definition.string",
+				"punctuation.definition.variable.php",
 				"variable.interpolation.scss punctuation",
 				"constant.character.escape",
 				"constant.character.entity",
