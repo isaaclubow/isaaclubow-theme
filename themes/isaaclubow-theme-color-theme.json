@@ -51,7 +51,6 @@
 		{
 			"name": "Plain",
 			"scope": [
-				"constant.numeric.css",
 				"keyword.other.unit",
 				"keyword.operator.class",
 				"support.function.url.css",
@@ -75,12 +74,13 @@
 			}
 		},
 		{
+			"name": "Tan",
 			"scope": [
 				"entity.name.tag.css",
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#f0e2a2"
+				"foreground": "#e2d7a8"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 				"entity.other.attribute-name.class.css",
 			],
 			"settings": {
-				"foreground": "#84ad62"
+				"foreground": "#73af91"
 			}
 		},
 		{
@@ -149,7 +149,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#e6a631"
+				"foreground": "#d8a547"
 			}
 		},
 		{
@@ -164,6 +164,7 @@
 				"variable.interpolation.scss punctuation",
 				"constant.character.escape",
 				"constant.character.entity",
+				"support.constant.property-value.css",
 				"punctuation.definition.entity.html",
 				"string.quoted.double.php punctuation.definition.variable.php",
 				"punctuation.definition.template-expression.begin.js",
@@ -228,7 +229,8 @@
 			"name": "White",
 			"scope": [
 				"entity.name.function",
-				"support.function.misc.scss"
+				"support.function.misc.scss",
+				"constant.numeric.css"
 			],
 			"settings": {
 				"foreground": "#fff",
@@ -254,7 +256,7 @@
 				"meta.tag.metadata.doctype entity.name.tag.html"
 			],
 			"settings": {
-				"foreground": "#a478bd"
+				"foreground": "#b587cf"
 			}
 		},
 		{
@@ -284,7 +286,7 @@
 				"entity.other.attribute-name.placeholder.css"
 			],
 			"settings": {
-				"foreground": "#f16baa"
+				"foreground": "#c27e9e"
 			}
 		},
 		{
