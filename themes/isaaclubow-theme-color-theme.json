@@ -65,9 +65,7 @@
 		},
 		{
 			"name": "Bold Grey",
-			"scope": [
-				"support.other.namespace punctuation.separator.inheritance"
-			],
+			"scope": ["support.other.namespace punctuation.separator.inheritance"],
 			"settings": {
 				"foreground": "#aaaaaa",
 				"fontStyle": "bold"
@@ -75,10 +73,7 @@
 		},
 		{
 			"name": "Tan",
-			"scope": [
-				"entity.name.tag.css",
-				"string.quoted.double.html"
-			],
+			"scope": ["entity.name.tag.css", "string.quoted.double.html"],
 			"settings": {
 				"foreground": "#e2d7a8"
 			}
@@ -97,10 +92,19 @@
 			}
 		},
 		{
-			"name": "Bold Grey",
+			"name": "Light Grey",
+			"scope": ["variable.other.jsdoc"],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Bold Light Grey",
 			"scope": [
 				"comment keyword",
-				"comment.block.documentation.phpdoc.php storage.modifier.php"
+				"comment.block.documentation.phpdoc.php storage.modifier.php",
+				"storage.type.class.jsdoc",
+				"punctuation.definition.block.tag.jsdoc"
 			],
 			"settings": {
 				"foreground": "#888888",
@@ -133,9 +137,7 @@
 		},
 		{
 			"name": "Class Green",
-			"scope": [
-				"entity.other.attribute-name.class.css",
-			],
+			"scope": ["entity.other.attribute-name.class.css"],
 			"settings": {
 				"foreground": "#73af91"
 			}
@@ -178,11 +180,9 @@
 		},
 		{
 			"name": "Escape Orange",
-			"scope": [
-
-			],
+			"scope": [],
 			"settings": {
-				"foreground": "#e47317",
+				"foreground": "#e47317"
 			}
 		},
 		{
@@ -240,10 +240,7 @@
 		},
 		{
 			"name": "White Bold",
-			"scope": [
-				"keyword.operator",
-				"entity.name.tag.reference.scss"
-			],
+			"scope": ["keyword.operator", "entity.name.tag.reference.scss"],
 			"settings": {
 				"foreground": "#fff",
 				"fontStyle": "bold"
@@ -283,9 +280,7 @@
 		},
 		{
 			"name": "Pale Pink",
-			"scope": [
-				"entity.other.attribute-name.placeholder.css"
-			],
+			"scope": ["entity.other.attribute-name.placeholder.css"],
 			"settings": {
 				"foreground": "#c27e9e"
 			}
