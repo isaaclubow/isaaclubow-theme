@@ -118,6 +118,7 @@
 				"variable punctuation",
 				"variable.js",
 				"variable.other punctuation.definition.variable.php",
+				"punctuation.definition.variable.php",
 				"string.quoted.double.php variable punctuation.definition.variable.php"
 			],
 			"settings": {
@@ -131,7 +132,7 @@
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
-				"foreground": "#ff0000",
+				"foreground": "#ee0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -163,8 +164,8 @@
 				"string.regexp.double-quoted.php",
 				"string.regexp.single-quoted.php punctuation.definition.string",
 				"string.regexp.double-quoted.php punctuation.definition.string",
-				"punctuation.definition.variable.php",
-				"variable.interpolation.scss punctuation",
+				"punctuation.definition.interpolation.begin.bracket.curly.scss",
+				"punctuation.definition.interpolation.end.bracket.curly.scss",
 				"constant.character.escape",
 				"constant.character.entity",
 				"support.constant.property-value.css",
@@ -302,12 +303,14 @@
 				"support.constant.ext.php",
 				"support.constant.core.php",
 				"support.constant.std.php",
+				"entity.other.alias.php",
 				"support.constant",
 				"constant.other.php",
 				"constant.other.class.php",
 				"variable.language.this.js",
 				"entity.name.type.js",
-				"variable.other.constant.property.js"
+				"variable.other.constant.property.js",
+				"variable.other.constant.object.js"
 			],
 			"settings": {
 				"foreground": "#ec4646",
