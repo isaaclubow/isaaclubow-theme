@@ -190,6 +190,7 @@
 			"name": "Pale Blue",
 			"scope": [
 				"support.function.magic.php",
+				"support.function.constructor.php",
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function",
 				"support.type.property-name",
