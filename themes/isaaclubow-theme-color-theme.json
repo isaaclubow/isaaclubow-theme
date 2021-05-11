@@ -132,7 +132,7 @@
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
-				"foreground": "#ee0000",
+				"foreground": "#ff0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -281,6 +281,14 @@
 			}
 		},
 		{
+			"name": "Error Red",
+			"scope": ["invalid", "invalid.illegal"],
+			"settings": {
+				"foreground": "#aa0000",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
 			"name": "Pale Pink",
 			"scope": ["entity.other.attribute-name.placeholder.css"],
 			"settings": {
@@ -293,6 +301,7 @@
 				"entity.name.type.trait.php",
 				"entity.name.type.class.php",
 				"entity.other.inherited-class.php",
+				"entity.name.type.interface.php",
 				"support.class",
 				"constant.language",
 				"variable.other.global.php",
@@ -314,7 +323,7 @@
 				"variable.other.constant.object.js"
 			],
 			"settings": {
-				"foreground": "#ec4646",
+				"foreground": "#dd3e3e",
 				"fontStyle": "bold"
 			}
 		}
