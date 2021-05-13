@@ -314,6 +314,7 @@
 			"scope": [
 				"entity.name.type.trait.php",
 				"entity.name.type.class.php",
+				"entity.name.type.class.js",
 				"entity.other.inherited-class.php",
 				"entity.name.type.interface.php",
 				"support.class",
