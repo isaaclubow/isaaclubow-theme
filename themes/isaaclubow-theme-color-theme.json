@@ -29,7 +29,6 @@
 		"panelTitle.inactiveForeground": "#999",
 		"sideBarSectionHeader.border": "#333",
 		"sideBar.foreground": "#ccc",
-		"editorInfo.border": "#ff0000",
 		"editor.selectionBackground": "#3f3f3f"
 	},
 	"tokenColors": [
@@ -336,7 +335,8 @@
 				"variable.language.this.js",
 				"entity.name.type.js",
 				"variable.other.constant.property.js",
-				"variable.other.constant.object.js"
+				"variable.other.constant.object.js",
+				"new.expr entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#dd3e3e",
