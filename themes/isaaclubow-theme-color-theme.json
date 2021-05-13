@@ -2,23 +2,34 @@
 	"name": "isaaclubow-theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#070707",
+		"editor.background": "#000",
 		"editor.foreground": "#dfdfdf",
-		"activityBarBadge.background": "#b42c03",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#0f0f0f",
-		"sideBar.border": "#1a1a1a",
-		"activityBar.background": "#0f0f0f",
-		"statusBar.background": "#0f0f0f",
-		"statusBar.border": "#1a1a1a",
-		"activityBar.border": "#1a1a1a",
-		"tab.inactiveBackground": "#171717",
-		"tab.activeModifiedBorder": "#ff0000",
-		"titleBar.activeBackground": "#0f0f0f",
-		"titleBar.border": "#1a1a1a",
-		"panel.background": "#0f0f0f",
-		"panel.border": "#1a1a1a",
-		"panelInput.border": "#1a1a1a"
+		"activityBarBadge.background": "#b00",
+		"sideBarTitle.foreground": "#ccc",
+		"sideBar.background": "#000",
+		"sideBar.border": "#333",
+		"editorLineNumber.activeForeground": "#fff",
+		"editorLineNumber.foreground": "#666",
+		"activityBar.background": "#000",
+		"statusBar.background": "#000",
+		"statusBar.border": "#333",
+		"activityBar.border": "#333",
+		"tab.inactiveBackground": "#222",
+		"tab.activeForeground": "#fff",
+		"tab.inactiveForeground": "#777",
+		"tab.border": "#333",
+		"tab.activeBorderTop": "#3275cc",
+		"tab.activeModifiedBorder": "#b00",
+		"titleBar.activeBackground": "#000",
+		"titleBar.border": "#333",
+		"panel.background": "#000",
+		"panel.border": "#333",
+		"panelInput.border": "#333",
+		"panelSectionHeader.border": "#333",
+		"panelTitle.inactiveForeground": "#999",
+		"sideBarSectionHeader.border": "#333",
+		"sideBar.foreground": "#ccc",
+		"editorInfo.border": "#ff0000"
 	},
 	"tokenColors": [
 		{
@@ -67,7 +78,7 @@
 			"name": "Bold Grey",
 			"scope": ["support.other.namespace punctuation.separator.inheritance"],
 			"settings": {
-				"foreground": "#aaaaaa",
+				"foreground": "#aaa",
 				"fontStyle": "bold"
 			}
 		},
@@ -88,7 +99,7 @@
 				"comment.block.documentation.phpdoc.php punctuation"
 			],
 			"settings": {
-				"foreground": "#666666"
+				"foreground": "#666"
 			}
 		},
 		{
@@ -107,7 +118,7 @@
 				"punctuation.definition.block.tag.jsdoc"
 			],
 			"settings": {
-				"foreground": "#888888",
+				"foreground": "#888",
 				"fontStyle": "bold"
 			}
 		},
@@ -149,10 +160,12 @@
 				"string",
 				"string punctuation",
 				"entity.other.attribute-name.id.css",
-				"punctuation.definition.string"
+				"punctuation.definition.string",
+				"string.regexp.single-quoted.php punctuation.definition.string",
+				"string.regexp.double-quoted.php punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#d8a547"
+				"foreground": "#d1a552"
 			}
 		},
 		{
@@ -162,8 +175,6 @@
 				"entity.name.type.namespace",
 				"string.regexp.single-quoted.php",
 				"string.regexp.double-quoted.php",
-				"string.regexp.single-quoted.php punctuation.definition.string",
-				"string.regexp.double-quoted.php punctuation.definition.string",
 				"punctuation.definition.interpolation.begin.bracket.curly.scss",
 				"punctuation.definition.interpolation.end.bracket.curly.scss",
 				"constant.character.escape",
@@ -175,7 +186,7 @@
 				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
-				"foreground": "#e47317",
+				"foreground": "#e27013",
 				"fontStyle": "bold"
 			}
 		},
@@ -183,7 +194,7 @@
 			"name": "Escape Orange",
 			"scope": [],
 			"settings": {
-				"foreground": "#e47317"
+				"foreground": "#e27013"
 			}
 		},
 		{
@@ -198,7 +209,10 @@
 				"variable.other.property",
 				"variable.other.object.property.js",
 				"entity.other.attribute-name.attribute.css",
-				"entity.other.attribute-name.attribute.scss"
+				"entity.other.attribute-name.attribute.scss",
+				"meta.property-name.media-query.css",
+				"meta.property-name.media-query.scss"
+
 			],
 			"settings": {
 				"foreground": "#9acfd1",
@@ -266,7 +280,7 @@
 				"keyword.control.at-rule.media.css",
 				"keyword.control.at-rule.media.scss",
 				"keyword.control.at-rule.supports.css",
-				"keyword.control.at-rule.supports.scss"
+				"keyword.control.at-rule.supports.scss",
 			],
 			"settings": {
 				"foreground": "#a478bd",
@@ -277,7 +291,7 @@
 			"name": "Pale Red",
 			"scope": [],
 			"settings": {
-				"foreground": "#ff5252"
+				"foreground": "#dd3e3e"
 			}
 		},
 		{
