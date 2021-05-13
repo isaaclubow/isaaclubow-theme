@@ -29,7 +29,8 @@
 		"panelTitle.inactiveForeground": "#999",
 		"sideBarSectionHeader.border": "#333",
 		"sideBar.foreground": "#ccc",
-		"editorInfo.border": "#ff0000"
+		"editorInfo.border": "#ff0000",
+		"editor.selectionBackground": "#3f3f3f"
 	},
 	"tokenColors": [
 		{
