@@ -130,7 +130,8 @@
 				"variable.js",
 				"variable.other punctuation.definition.variable.php",
 				"punctuation.definition.variable.php",
-				"string.quoted.double.php variable punctuation.definition.variable.php"
+				"string.quoted.double.php variable punctuation.definition.variable.php",
+				"string.quoted.double.sql.php variable punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#81a8d4"
@@ -182,6 +183,7 @@
 				"support.constant.property-value.css",
 				"punctuation.definition.entity.html",
 				"string.quoted.double.php punctuation.definition.variable.php",
+				"string.quoted.double.sql.php punctuation.definition.variable.php",
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.end.js"
 			],
