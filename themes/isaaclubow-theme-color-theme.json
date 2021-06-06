@@ -299,8 +299,8 @@
 			"name": "Error Red",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#aa0000",
-				"fontStyle": "italic bold underline"
+				"foreground": "#b33e3e",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
