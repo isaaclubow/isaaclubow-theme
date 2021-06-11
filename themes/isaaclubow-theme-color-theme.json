@@ -336,8 +336,7 @@
 				"variable.language.this.js",
 				"entity.name.type.js",
 				"variable.other.constant.property.js",
-				"variable.other.constant.object.js",
-				"new.expr entity.name.function.js"
+				"variable.other.constant.object.js"
 			],
 			"settings": {
 				"foreground": "#dd3e3e",
