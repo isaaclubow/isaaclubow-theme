@@ -63,7 +63,6 @@
 			"name": "Plain",
 			"scope": [
 				"keyword.other.unit",
-				"keyword.operator.class",
 				"support.function.url.css",
 				"punctuation",
 				"meta.embedded.line.php punctuation",
