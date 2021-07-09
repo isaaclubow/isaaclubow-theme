@@ -14,7 +14,7 @@
 		"sideBar.foreground": "#ccc",
 		"sideBarSectionHeader.border": "#111",
 		"editorLineNumber.activeForeground": "#fff",
-		"editorLineNumber.foreground": "#666",
+		"editorLineNumber.foreground": "#393939",
 		"statusBar.background": "#000",
 		"statusBar.border": "#111",
 		"tab.inactiveBackground": "#111",
@@ -29,7 +29,9 @@
 		"panel.border": "#111",
 		"panelInput.border": "#111",
 		"panelSectionHeader.border": "#111",
-		"panelTitle.inactiveForeground": "#999"
+		"panelTitle.inactiveForeground": "#555",
+		"activityBar.foreground": "#fff",
+		"activityBar.inactiveForeground": "#393939"
 	},
 	"tokenColors": [
 		{
