@@ -135,7 +135,7 @@
 				"string.quoted.double.sql.php variable punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#81a8d4"
+				"foreground": "#7e9fc4"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 				"string.regexp.double-quoted.php punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#cfad6d"
+				"foreground": "#c3a671"
 			}
 		},
 		{
@@ -189,7 +189,7 @@
 				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
-				"foreground": "#e27013",
+				"foreground": "#c7732e",
 				"fontStyle": "bold"
 			}
 		},
@@ -285,7 +285,7 @@
 				"keyword.control.at-rule.supports.scss"
 			],
 			"settings": {
-				"foreground": "#a478bd",
+				"foreground": "#9677a8",
 				"fontStyle": "bold"
 			}
 		},
@@ -340,7 +340,7 @@
 				"variable.other.constant.object.js"
 			],
 			"settings": {
-				"foreground": "#dd3e3e",
+				"foreground": "#c34444",
 				"fontStyle": "bold"
 			}
 		}
