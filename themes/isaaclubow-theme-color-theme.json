@@ -46,7 +46,7 @@
 				"keyword.operator.expression.delete.js"
 			],
 			"settings": {
-				"foreground": "#8fc266",
+				"foreground": "#89ac6c",
 				"fontStyle": "bold"
 			}
 		},
@@ -217,7 +217,7 @@
 				"meta.property-name.media-query.scss"
 			],
 			"settings": {
-				"foreground": "#9acfd1",
+				"foreground": "#a3c2c3",
 				"fontStyle": ""
 			}
 		},
